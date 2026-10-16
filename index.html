@@ -17,5 +17,21 @@
     <button onclick="document.getElementById('secret').innerHTML = 'I have a big brain, I am Megamind';
     document.getElementById('secret').style.display= 'block';">Reveal!</button>
     <button onclick="document.getElementById('secret').style.display= 'none';">Hide!</button>
+
+    <h2> how do I change an image in java script</h2>
+    <img src="images/LightOff.jpeg" id="nolight" style="height: 300px; width: 300px;">
+    <button onclick="document.getElementById('nolight').src = 'images/LightOn.jpeg';">Turn On</button>
+    <button onclick="document.getElementById('nolight').src = 'images/LightOff.jpeg';">Turn Off</button>
+
+    <h2>How do we change styles with buttons</h2>
+    <p id="style">Hi, I am Alice</p>
+    <button onclick="document.getElementById('style').style.color = 'blue';
+    document.getElementById('style').style.fontSize = '5px';">Cake-eat me</button>
+    <button onclick="document.getElementById('style').style.color = 'red';
+    document.getElementById('style').style.fontSize = '50px';">potion-crinkme</button>
+    <h2>How do we rotate and fade things</h2>
+<p id="trick" style="display:inline-block; font-size:30px;">Hello World!</p>
+<button onclick="document.getElementById('trick').style.transform = 'rotate(180deg)';">Flip upside down</button>
+<button onclick="document.getElementById('trick').style.opacity = '0.2';">Fade away</button>
 </body>
 </html>
